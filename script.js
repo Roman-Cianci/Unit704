@@ -11,7 +11,7 @@ function check () {
   userDate = document.getElementById('input-Second').value
 
   // Checks and compares user age and day of the week to the student discount dates and ages.
-  if ((userDate === 'Tuesday' '||' userDate === 'Thursday')||(userAge > 14 && userAge < 26)) { 
+  if ((userDate === 'Tuesday' '||' userDate === 'Thursday''||'(userAge > 14 && userAge < 26)) { 
     document.getElementById('answer').innerHTML = 'You get student pricing.'
   } else {
     document.getElementById('answer').innerHTML = 'You get regular pricing.'
